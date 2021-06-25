@@ -32,7 +32,7 @@ Clone the project in your repository.
 
 Set the database credentials in the "app_usage_pipeline" DAG before running the pipeline. Save the code.
 
-Assuming that you are in your present working directory, start you airflow webserver.    
+Assuming that you are in your present working directory, start your airflow webserver.    
 
 ```bash
 export AIRFLOW_HOME=$(pwd)
