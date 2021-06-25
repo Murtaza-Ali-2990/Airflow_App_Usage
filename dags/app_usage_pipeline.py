@@ -20,7 +20,7 @@ default_args = {
 
 # Directed Acyclic Graph (DAG) which directs the workflow of the pipeline
 with DAG(
-    dag_id = 'app_usage_generation',
+    dag_id = 'app_usage_pipeline',
     default_args= default_args,
     schedule_interval= '@daily',
     catchup= True,
